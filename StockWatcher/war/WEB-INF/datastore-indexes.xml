@@ -1,0 +1,11 @@
+<datastore-indexes autoGenerate="false">
+
+	<datastore-index kind="Stock" ancestor="false" source="manual">
+
+	        <property name="user" direction="asc"/>
+
+	        <property name="createDate" direction="asc"/>
+
+	</datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,121 @@
+package ca.ubc.cpsc310.gitlab.client.user;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
+
+public class User implements IUser {
+
+	
+	private static final long serialVersionUID = -4678920906536621479L;
+	
+	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
+	private List<ProductItem> wishList = new ArrayList<ProductItem>();
+	
+	private String name;
+	private String language;
+
+	
+	public User()
+	{
+		
+
+	}
+	
+	@Override
+	public String getLanguage() {
+
+		return language;
+
+	}
+
+	@Override
+	public String getName() {
+
+		return name;
+
+	}
+
+	@Override
+	public List<ProductItem> getWishList() {
+
+		return wishList;
+
+	}
+
+	@Override
+	public List<ProductItem> getShoppingCart() {
+<<<<<<< HEAD
+		return (List<ProductItem>) data.get(SHOPPINGCART);
+=======
+		return shoppingCart;
+>>>>>>> origin/async
+	}
+
+	@Override
+	public void setLanguage(String language) {
+<<<<<<< HEAD
+		data.put(LANG,language);
+=======
+		this.language = language;
+>>>>>>> origin/async
+		
+	}
+
+	@Override
+	public void setName(String name) {
+<<<<<<< HEAD
+		data.put(NAME, name);
+=======
+		this.name = name;
+>>>>>>> origin/async
+		
+	}
+
+	@Override
+	public void addItemToWishList(ProductItem o) {
+<<<<<<< HEAD
+		((List<ProductItem>) data.get(WISHLIST)).add(o);
+	}
+
+	@Override
+	public void addItemToShoppingCart(ProductItem o) {
+		((List<ProductItem>) data.get(SHOPPINGCART)).add(o);
+		
+	}
+
+	@Override
+	public void removeItemFromWishList(ProductItem o) {
+		((List<ProductItem>) data.get(WISHLIST)).remove(o);
+=======
+		this.wishList.add(o);
+		
+	}
+	@Override
+	
+	public void removeItemFromWishList(ProductItem o) {
+		this.wishList.remove(o);
+	}
+	
+	@Override
+	public void addItemToShoppingCart(ProductItem o) {
+		this.shoppingCart.add(o);
+		
+>>>>>>> origin/async
+	}
+
+	@Override
+	public void removeItemFromShoppingCart(ProductItem o) {
+<<<<<<< HEAD
+		((List<ProductItem>) data.get(SHOPPINGCART)).add(o);
+	}
+
+	
+=======
+		this.shoppingCart.remove(o);
+	}
+
+>>>>>>> origin/async
+}

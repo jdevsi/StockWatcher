@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Merge remote-tracking branch &apos;origin/async&apos;&\#x0A;&\#x0A;Conflicts\:&\#x0A;&\#x09;src/ca/ubc/cpsc310/gitlab/client/GitLab.java&\#x0A;&\#x09;src/ca/ubc/cpsc310/gitlab/client/user/User.java&\#x0A;</message>\n</messages>
+eclipse.preferences.version=1
+org.eclipse.egit.ui.githistorypage.showallfilter=SHOWALLRESOURCE
+resourcehistory_compare_mode=true
