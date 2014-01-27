@@ -47,8 +47,8 @@ public class Stock {
     return this.createDate;
   }
 
-  public void setUser(User user) {
-    this.user = user;
+  public void setUser(User rab) {
+    this.user = rab;
   }
 
   public void setSymbol(String symbol) {
