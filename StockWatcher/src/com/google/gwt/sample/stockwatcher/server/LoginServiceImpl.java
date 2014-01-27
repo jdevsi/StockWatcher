@@ -9,7 +9,8 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 
 // changing stuff 
-// stockwatcher yaaaaaa
+// stockwatcher yaaaaaa 
+/// yea! supa exciting stuff!:)
 public class LoginServiceImpl extends RemoteServiceServlet implements
     LoginService {
 
