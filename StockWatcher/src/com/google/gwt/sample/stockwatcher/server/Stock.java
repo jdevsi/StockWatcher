@@ -50,8 +50,10 @@ public class Stock {
     return this.createDate;
   }
 
-  public void setUser(User u) { // changed this from user to u
-    this.user = u;
+
+  public void setUser(User rab) {
+    this.user = rab;
+
   }
 
   public void setSymbol(String s) { //changed this from symbol to s
