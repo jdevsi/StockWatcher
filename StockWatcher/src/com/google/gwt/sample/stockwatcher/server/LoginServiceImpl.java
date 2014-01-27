@@ -7,6 +7,9 @@ import com.google.gwt.sample.stockwatcher.client.LoginInfo;
 import com.google.gwt.sample.stockwatcher.client.LoginService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
+
+// changing stuff 
+// stockwatcher yaaaaaa
 public class LoginServiceImpl extends RemoteServiceServlet implements
     LoginService {
 

@@ -8,6 +8,9 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 import com.google.appengine.api.users.User;
 
+
+// Hello I am Zoe
+
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class Stock {
 
