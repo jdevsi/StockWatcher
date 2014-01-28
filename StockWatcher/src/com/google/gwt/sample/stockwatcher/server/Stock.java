@@ -9,7 +9,8 @@ import javax.jdo.annotations.PrimaryKey;
 import com.google.appengine.api.users.User;
 
 
-// Hello I am Zoe
+// Hello I am Zoe changing
+// changing stuff 
 
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class Stock {
@@ -20,7 +21,7 @@ public class Stock {
   @Persistent
   private User user;
   @Persistent
-  private String symbol;
+  private String s;
   @Persistent
   private Date createDate;
 
@@ -28,10 +29,10 @@ public class Stock {
     this.createDate = new Date();
   }
 
-  public Stock(User user, String symbol) {
+  public Stock(User user, String s) {
     this();
     this.user = user;
-    this.symbol = symbol;
+    this.s = s;
   }
 
   public Long getId() {
@@ -43,7 +44,7 @@ public class Stock {
   }
 
   public String getSymbol() {
-    return this.symbol;
+    return this.s;
   }
 
   public Date getCreateDate() {
@@ -51,12 +52,14 @@ public class Stock {
   }
 
   public void setUser(User zoe) { // changed this from user to u
+	  // change 
 	  // nope changing it to zoe
+	  //change
     this.user = zoe;
   }
 
   public void setSymbol(String s) { //changed this from symbol to s
 	  // cool stuff
-    this.symbol = s;
+    this.s = s;
   }
 }
