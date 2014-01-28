@@ -52,11 +52,13 @@ public class Stock {
   }
 
 
+
   public void setUser(User zoe) { // changed this from user to u
 	  // change 
 	  // nope changing it to zoe
 	  //change
     this.user = zoe;
+
 
   }
 
