@@ -51,11 +51,10 @@ public class Stock {
     return this.createDate;
   }
 
-  public void setUser(User zoe) { // changed this from user to u
-	  // change 
-	  // nope changing it to zoe
-	  //change
-    this.user = zoe;
+
+  public void setUser(User rab) {
+    this.user = rab;
+
   }
 
   public void setSymbol(String s) { //changed this from symbol to s
